@@ -27,7 +27,7 @@ class LoginDialog(QDialog):
         # Login Buttons (special type of buttons for Dialogs)
         QBtn = QDialogButtonBox.Ok | QDialogButtonBox.Cancel
         self.buttonBox = QDialogButtonBox(QBtn)
-        self.buttonBox.rejected.connect(self.close) # closes the dlg
+        self.buttonBox.rejected.connect(self.Back) # closes the dlg
         self.passwordField.editingFinished.connect(self.Login)  # listenig to see if that field is edited
         self.grid = QGridLayout()
         self.grid.addWidget(self.password, 0,0)
@@ -51,3 +51,6 @@ class LoginDialog(QDialog):
             self.passwordField.setPlaceholderText("%d tentativas restantes..." %(3 - self.numberTries))   # warns the user of the number of left tries
         else:
             sys.exit()  # Closes the app
+
+    def Back(self):
+        sys.exit()

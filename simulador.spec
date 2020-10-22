@@ -32,7 +32,7 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True, 
+          console=False, 
           icon='D:\\Universalis\\gui\\images\\Universalis.ico')
 coll = COLLECT(exe,
                a.binaries,
