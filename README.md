@@ -10,6 +10,9 @@ For Windows, you should install:
 2. Get PIP on https://www.liquidweb.com/kb/install-pip-windows/
 3. Get selenium, PyQt5 and criptography on pip. Ex. pip3 install selenium
 
+Or:
+Go to 1_Extras/Instalador.exe and install it
+
 ## Bases
 Small application where the user fills the forms for make a  vehicle insurance simulation
 
@@ -25,8 +28,8 @@ Small application where the user fills the forms for make a  vehicle insurance s
 ## TODO
 
 - [x] GUI 
-- [ ] Automatization of websites 
-- [ ] Security 
+- [x] Automatization of websites 
+- [x] Security 
 - [x] Database
 - [ ] Otimization of the code
 - [x] Report 
