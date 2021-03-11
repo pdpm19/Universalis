@@ -31,5 +31,5 @@ Small application where the user fills the forms for make a  vehicle insurance s
 - [x] Automatization of websites 
 - [x] Security 
 - [x] Database
-- [ ] Otimization of the code
+- [ ] Optimization of the code
 - [x] Report 
